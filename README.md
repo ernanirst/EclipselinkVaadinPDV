@@ -13,6 +13,22 @@ Features
 Screenshots
 ========
 
+Login Page
+----------
+![Alt text](https://cloud.githubusercontent.com/assets/5594085/21080489/8cae8d98-bf97-11e6-91dc-51f9e3be1701.PNG "Login Page")
+
+PDVs List Page
+----------
+![Alt text](https://cloud.githubusercontent.com/assets/5594085/21080490/8cb36714-bf97-11e6-962c-87903fbd5e1e.PNG "New PDV Page")
+
+Add New PDV Page
+----------
+![Alt text](https://cloud.githubusercontent.com/assets/5594085/21080489/8cae8d98-bf97-11e6-91dc-51f9e3be1701.PNG "New PDV Page")
+
+Add PDV details Page
+----------
+![Alt text](https://cloud.githubusercontent.com/assets/5594085/21080542/c73b64f8-bf98-11e6-81bd-a16ca55c7587.PNG "PDV Details Page")
+
 Workflow
 ========
 
