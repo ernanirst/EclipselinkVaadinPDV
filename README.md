@@ -1,8 +1,17 @@
-UpPointsPDV2
+UpPointsPDV
 ==============
 
-Template for a simple Vaadin application that only requires a Servlet 3.0 container to run.
+Implementation of an example PDV (point-of-sale) system. This project uses Eclipselink JPA for handling database and Vaadin framework to show the result in a web interface.
 
+Features
+========
+* This project uses eclipselink JPA and Derby for handling storage, the code is prepared for a persistence unit called `uppointspdv.main`, change this name will require code adaptation;
+* Allow users to create PDV users and to login to the system;
+* CRUD operations for PDVs: PDV users logged in the system are allowed to create new PDVs only, however, the classes `uppointspdv.dao.PDVDao` and `uppointspdv.model.PDV` implements all CRUD operations;
+* The web interface was built with [Vaadin](https://vaadin.com/) framework and it presents a login page, a list PDVs page, an add new PDV page and a show PDV details page.
+
+Screenshots
+========
 
 Workflow
 ========
@@ -44,9 +53,3 @@ When using the runtime compiler, running the application in the "run" mode
 significantly.
 
 It is highly recommended to disable runtime compilation for production WAR files.
-
-Using Vaadin pre-releases
--------------------------
-
-If Vaadin pre-releases are not enabled by default, use the Maven parameter
-"-P vaadin-prerelease" or change the activation default value of the profile in pom.xml .
